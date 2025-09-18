@@ -1,5 +1,5 @@
 #include <iostream>
-#include "dependencies/hello.cpp"
+#include "dependencies/hello.h"
 
 int main()
 {
