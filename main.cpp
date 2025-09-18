@@ -1,14 +1,9 @@
 #include <iostream>
-
-void print_hello()
-{
-    std::cout << "Hello, World!" << std::endl;
-}
+#include "dependencies/hello.cpp"
 
 int main()
 {
-    print_hello();
-
+    LogInit();
     float a = 5.5;
     int b = 5;
 
