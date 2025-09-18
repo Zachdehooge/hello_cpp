@@ -7,12 +7,13 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Include directories
-include_directories(${CMAKE_SOURCE_DIR}/dependencies)
+include_directories(${CMAKE_SOURCE_DIR}/headers)
+#include_directories(${CMAKE_SOURCE_DIR}/functions)
 
 # Source files
 set(SOURCES
         main.cpp
-        dependencies/hello.cpp
+        functions/hello.cpp
 )
 
 # Add executable
